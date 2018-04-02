@@ -1,0 +1,38 @@
+.navBar {
+	width: 100%;
+	background-color: $color-navBar;
+    display: flex; 
+	justify-content: space-around;
+	align-items: center;
+	text-align: center; // hack for ie9
+
+	&__logo {
+		margin-top: 3px;
+
+		& img {
+			height: 40px;
+			margin: auto;
+			cursor: pointer;
+		}
+	}
+
+	&__headline {
+		margin: 3px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.navBar {
+		flex-direction: column;
+
+		&__logo {
+			& img {
+				height: 35px;				
+			}
+		}
+
+		&__headline {
+			margin: 0 0 3px 0;			
+		}
+	}
+}

@@ -1,0 +1,18 @@
+// Descriptive color variables
+
+$red_cinnabar: #EB3C32;
+$orange_neonCarrot: #FFA02F;
+
+
+// Functional color variables
+
+$color-background			: lighten(#000, 10%);
+$color-text 				: #000;
+
+$color-tab  				: $orange_neonCarrot;
+$color-tab-active 			: $red_cinnabar;
+$color-tab-text				: #FFF;
+$color-sideBar-background	: #FFF;
+$color-sideBar-border		: lighten(#000, 10%);
+
+$color-navBar				: #FFF;
